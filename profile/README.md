@@ -10,3 +10,26 @@
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Top contributors
 [![Top contributors](https://images.repography.com/32863324/shortlink-org/shortlink/top-contributors/_M9zEKbnwqnKuCLkfzyRraZBs1QGGWSJIbHujFKfTRQ_table.svg)](https://github.com/shortlink-org/shortlink/graphs/contributors)
+
+### Boundaries
+
+> [!TIP]
+>
+> Our project follows Domain-Driven Design (DDD) principles, organizing code into distinct domains for clarity and easier updates.
+
+| Bounded Context       | Description              | Type subdomain | Docs                                                  |
+|-----------------------|--------------------------|----------------|-------------------------------------------------------|
+| API Gateway           | Gateway for all services | Supporting     | [link](https://github.com/shortlink-org/shortlink)    |
+| Auth Boundary         | Auth services            | Generic        | [link](https://github.com/shortlink-org/auth)         |
+| Billing Boundary      | Payment services         | Generic        | [link](https://github.com/shortlink-org/billing)      |
+| Chat Boundary         | Chat services            | Supporting     | [link](https://github.com/shortlink-org/chat)         |
+| Delivery Boundary     | Delivery services        | Supporting     | [link](https://github.com/shortlink-org/delivery)     |
+| DS Boundary           | Data Science services    | Supporting     | [link](https://github.com/shortlink-org/shortlink)    |
+| Link Boundary         | Link services            | Core           | [link](https://github.com/shortlink-org/shortlink)    |
+| Marketing Boundary    | Marketing services       | Supporting     | [link](https://github.com/shortlink-org/marketing)    |
+| Notification Boundary | Notification services    | Generic        | [link](https://github.com/shortlink-org/notification) |
+| Platform Boundary     | Platform services        | Supporting     | [link](https://github.com/shortlink-org/platform)     |
+| Search Boundary       | Search services          | Supporting     | [link](https://github.com/shortlink-org/search)       |
+| Shop Boundary         | Shop services            | Supporting     | [link](https://github.com/shortlink-org/shop)         |
+| ShortDB Boundary      | ShortDB services         | Supporting     | [link](https://github.com/shortlink-org/shortdb)      |
+
